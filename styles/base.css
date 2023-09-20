@@ -1,0 +1,15 @@
+/* Example CSS for main content layout */
+main {
+    max-width: 800%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #7078e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Apply your own styles for fonts, colors, and spacing */
