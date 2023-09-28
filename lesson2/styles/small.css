@@ -1,0 +1,101 @@
+/* one column grid lay out */
+#content {
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  header, footer{
+    background-color: rgb(0, 187, 255);
+    text-align: center;   
+  }
+  
+  header {
+    max-width: 100%;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    color: #000;
+    font-family: "Scheherazade New", serif;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  footer {
+    max-width: 100%;
+    font-family: "Scheherazade New", serif;
+    line-height: 20px;
+    margin-bottom: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+  }
+  
+  footer a {
+    color: #000;
+    font-family: "Architects Daughter", sans-serif;
+  }
+  
+  img {
+    width: 100%;
+    box-shadow: 0.5rem 0.5rem 2rem #fff;
+    margin-top: 10px;
+  }
+  
+  #container h2 {
+    margin-top: 0;
+    background-color: rgb(0, 187, 255);
+    padding: 7px 5px 7px 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .description {
+    padding: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    
+  }
+  
+  #container a{
+    padding: 0 0 0 10px;
+  
+  }
+  
+  .site-name {
+      font-size: 18px;;
+      padding: 5px 0 5px 10px;
+  }
+  
+  #first-paragraph {
+    background-color: rgb(139, 155, 164);
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  #second-paragraph {
+    background-color: rgb(139, 155, 164);
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  
+  #third-paragraph {
+    background-color: rgb(139, 155, 164);
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  
+  #container {
+    font-family: "Cormorant Garamond", sans-serif;
+  }
+  
+  

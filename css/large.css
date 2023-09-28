@@ -1,0 +1,30 @@
+/*large view*/
+@media only screen and (min-width: 64em) {
+    body {
+      font-size: 16pt;
+    }
+    header {
+      padding-top: 2.5%;
+      padding-bottom: 3.5%;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      margin-left: 0.5rem;
+      text-decoration: underline;
+    }
+    nav ul li a {
+      font-size: 0.8rem;
+    }
+
+    nav {
+        max-width: 100%;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+  }

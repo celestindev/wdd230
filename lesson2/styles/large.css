@@ -1,0 +1,35 @@
+/*media query with a three column lay out */
+@media only screen and (min-width: 1024px) {
+
+
+    #container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 15px;
+        padding: 1em; 
+    }
+    
+    #first-paragraph {
+        grid-column: 1/2;
+        margin-top: 0;
+    }
+    
+    #second-paragraph {
+        grid-column: 2/3;
+    }
+    
+    #third-paragraph{
+        grid-column: 3/4;
+    }
+    
+    header {
+      max-width: 64rem;
+      line-height: 20px;
+    }
+    
+    footer {
+      max-width: 64rem;
+      line-height: 5px;
+    }
+    }
+  
