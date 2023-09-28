@@ -1,11 +1,5 @@
-// Get the current year
-const currentYear = new Date().getFullYear();
+// uses getElementById to pull last modified date and time
+document.querySelector("#lastupdated").textContent = `Last Updated: ${document.lastModified}`;
 
-// Update the copyright year in the footer
-document.getElementById("copyright-year").textContent = currentYear;
-
-// Get the last modified date
-const lastModifiedDate = document.lastModified;
-
-// Update the last modified date in the second paragraph
-document.getElementById("lastModified").textContent = `Last Modified: ${lastModifiedDate}`;
+// places current year into id year
+document.querySelector("#copyrightyear").textContent = new Date().getFullYear();
