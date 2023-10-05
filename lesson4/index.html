@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gerald CELESTIN">
+    <title>Chamber Site Plan</title>
+    <meta name="description"
+        content="Assignment portal for Gerald CELESTIN in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="clouds_sun_weather_icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script src="js/toggleMenu.js"></script>
+</head>
+<body>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Warning! There is no weather alert.
+    </div>
+        <header class="head">
+            <nav>
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/index.html" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">Discover</a></li>
+                    <li><a href="#" target="_blank">Dictory</a></li>
+                    <li><a href="#" target="_blank">Join</a></li>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="chamberbarner">
+                <img src="" alt="">
+                <selection class="selectionwelther">
+                    <h2>Weather Summary</h2>
+                    <p><b>Current Temperature:</b> <span id="temperature">&deg;C</span></p>
+                    <p><b>Current Condition Description:</b> <span id="currentweather"></span></p>
+                    <p><b>Humidity:</b> <span id="humid"></span>%</p>
+                </selection>
+                <selection class="selectionevent">
+                    <h2>Upcoming Events:</h2>
+                    <p id="event_one"></p>
+                    <p id="event_two"></p>
+                    <p id="event_three"></p>
+                </selection>
+            </div>
+            <h1 class="days">3 Days Forecast</h1>
+                   <div id="forecast"></div>
+            <h1>Purpose Of Chamber Of Commerce</h1>
+            <p></p>
+            <p></p>
+            <h1 class="local">Local Company Advertisement</h1> 
+            <div class="adscard">
+                <img src="" alt="" style="width: 100%;">
+                <div class="adscontainer">
+                    <h4><b>.....</b></h4>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="adscard">
+                <img src="" alt="" style="width: 100%;">
+                <div class="adscontainer">
+                    <h4><b>.....</b></h4>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="adscard">
+                <img src="" alt="" style="width: 100%;">
+                <div class="adscontainer">
+                    <h4><b>.....</b></h4>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                &copy;<span id="copyrightyear"></span> | Gerald CELESTIN | Haiti | <a href="https://www.byui.edu/online"
+                    target="_blank">BYUI Online
+                    Learning</a></p>
+            <p><span id="lastupdated"></span></p>
+        </footer>
+        <script defer src="js/getdates.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </div>
+</body>
+
+</html>
