@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gerald CELESTIN">
-    <title>Chamber Site Plan</title>
+    <title>Home Page Chamber Commerce </title>
     <meta name="description"
         content="Assignment portal for Gerald CELESTIN in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,91 +14,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/type.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script src="js/toggleMenu.js"></script>
 </head>
+
 <body>
-    <div class="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        Warning! There is no weather alert.
+    <header class="head">
+        <nav>
+            <div class="logo">
+                <img src="../lesson4/images/logo_for_my_site.png" alt="">
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/lesson4/index.html" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">Discover</a></li>
+                <li><a href="#" target="_blank">Dictory</a></li>
+                <li><a href="#" target="_blank">Join</a></li>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="chamberbarner">
+            <img src="images/chamber_of_commerce1.png" alt="Chamber Of Commerce">
+            <selection class="selectionwelther">
+                <h2>Weather Summary</h2>
+                <p><b>Current Temperature:</b> <span id="temperature">&deg;C</span></p>
+                <p><b>Current Condition Description:</b> <span id="currentweather"></span></p>
+                <p><b>Humidity:</b> <span id="humid"></span>%</p>
+            </selection>
+            <selection class="selectionevent">
+                <h2>Upcoming Events:</h2>
+                <p id="event_one"></p>
+                <p id="event_two"></p>
+                <p id="event_three"></p>
+            </selection>
+        </div>
+        <h1 class="days">3 Days Forecast</h1>
+        <div id="forecast"></div>
+        <h1>Purpose Of Chamber Of Commerce</h1>
+        <p>The reason for this Chamber of Commerce Haiti is to promote business in Petionville town and Delmas.
+            The general objective is to advance the financial matters of the individuals
+            of the association and advance the region, drawing in extra business and individuals, offering the most
+            obvious opportunity, and helping guests and best habits.</p>
+        <br>
+        <p>The chamber is definitely not a social association. We are not a neighborhood government branch however have
+            a few associations government. We are here to work for organizations and individuals locally who need to
+            take part and have an effect in their places of beginning.</p>
+        </br>
+        <h1 class="local">Local Company Advertisement</h1>
+        <div class="adscard">
+            <img src="../lesson4/images/iac_assurance.png" alt="" style="width: 100%;">
+            <div class="adscontainer">
+                <h4>Alternative Insurance Company (AIC)<b></b></h4>
+                <p>Petion-Ville, Pétionville, 6141, Haiti  3 rue Jean Gilles Blvd. Toussaint Louverture</p>
+                <p>+509 28 12 6300</p>
+
+            </div>
+        </div>
+        <div class="adscard">
+            <img src="../lesson4/images/delimartmarket-haiti.png" alt="" style="width: 100%;">
+            <div class="adscontainer">
+                <h4><b>DELIMART (Market)</b></h4>
+                <p>32 Rte de Delmas, Port-au-Prince 6120</p>
+                <p>+509 28 13 1249</p>
+
+            </div>
+        </div>
+        <div class="adscard">
+            <img src="../lesson4/images/potiwa pizza.png" alt="" style="width: 100%;">
+            <div class="adscontainer">
+                <h4><b>Pot'iwa Pizza Haiti | Port-au-Prince</b></h4>
+                <p>114 Av. Pan-Americaine, Port-au-Prince Petion-Ville</p>
+                <p>+509  44 48 3686</p>
+            </div>
+        </div>
+    </main>
+    <!--   footer bottom start  -->
+    <div class="footer-bottom">
+        <p>&copy;<span id="chambercommercecopyrightyear"></span> Chamber Of Commerce | <a class="attribution"
+                href="">Attribution</a> | Gerald CELESTIN</p>
+        <span id="chambercommercecurrentdate"></span></p>
+        <button><a class="note" href="#top">Back to top</a></button>
     </div>
-        <header class="head">
-            <nav>
-                <div class="logo">
-                    <img src="" alt="">
-                </div>
-                <div class="hamburger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="/index.html" target="_blank">Home</a></li>
-                    <li><a href="#" target="_blank">Discover</a></li>
-                    <li><a href="#" target="_blank">Dictory</a></li>
-                    <li><a href="#" target="_blank">Join</a></li>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="chamberbarner">
-                <img src="" alt="">
-                <selection class="selectionwelther">
-                    <h2>Weather Summary</h2>
-                    <p><b>Current Temperature:</b> <span id="temperature">&deg;C</span></p>
-                    <p><b>Current Condition Description:</b> <span id="currentweather"></span></p>
-                    <p><b>Humidity:</b> <span id="humid"></span>%</p>
-                </selection>
-                <selection class="selectionevent">
-                    <h2>Upcoming Events:</h2>
-                    <p id="event_one"></p>
-                    <p id="event_two"></p>
-                    <p id="event_three"></p>
-                </selection>
-            </div>
-            <h1 class="days">3 Days Forecast</h1>
-                   <div id="forecast"></div>
-            <h1>Purpose Of Chamber Of Commerce</h1>
-            <p></p>
-            <p></p>
-            <h1 class="local">Local Company Advertisement</h1> 
-            <div class="adscard">
-                <img src="" alt="" style="width: 100%;">
-                <div class="adscontainer">
-                    <h4><b>.....</b></h4>
-                    <p></p>
-                    <p></p>
-                </div>
-            </div>
-            <div class="adscard">
-                <img src="" alt="" style="width: 100%;">
-                <div class="adscontainer">
-                    <h4><b>.....</b></h4>
-                    <p></p>
-                    <p></p>
-                </div>
-            </div>
-            <div class="adscard">
-                <img src="" alt="" style="width: 100%;">
-                <div class="adscontainer">
-                    <h4><b>.....</b></h4>
-                    <p></p>
-                    <p></p>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <p>
-                &copy;<span id="copyrightyear"></span> | Gerald CELESTIN | Haiti | <a href="https://www.byui.edu/online"
-                    target="_blank">BYUI Online
-                    Learning</a></p>
-            <p><span id="lastupdated"></span></p>
-        </footer>
-        <script defer src="js/getdates.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </div>
+    <script defer src="js/footer.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/chamberevent.js"></script>
+    <script src="js/chamberweather.js"></script>
+    <script src="js/chamberads.js"></script>
     </div>
 </body>
 
