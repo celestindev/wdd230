@@ -6,7 +6,7 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("adscard");
     for (i = 0; i < x.length; i++) {
-        x[i].computedStyleMap.display = "none";
+        x[i].style.display = "none";
     }
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
