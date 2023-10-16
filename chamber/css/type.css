@@ -19,33 +19,6 @@ p {
 
 /*end headings*/
 
-
-/* The close button */
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* When moving the mouse over the close button*/
-.closebtn:hover {
-    color: black;
-}
-
-.note {
-    color: black;
-    background-color: white;
-}
-
-.note li a:hover {
-    background-color: thistle;
-}
-
 /* start advertissement */
 .adscard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -279,35 +252,33 @@ nav {
 
 /*End Nav-bar */
 
-/*Barner index*/ .chamberbarner img {
+/*Barner index*/
+.chamberbarner img {
     width: 100%;
     max-height: 400px;
-
 }
 
 /* Barner index */
 .selectionwelther {
-    position: absolute;
-    top: 22%;
-    right: 69%;
-    left: 2%;
-    padding: 1.5rem;
-    box-shadow: 0 0 30px white;
+    position: relative;
+    top: 4.5em;;
+    left: 38%;
+    padding: 0;;
+    box-shadow: 0 0 30px rgb(43, 39, 39);
     opacity: 0.85;
-    background: radial-gradient(rgb(177, 165, 165), rgb(202, 198, 198));
-    border: 1px solid rgb(199, 193, 193);
+    background: radial-gradient(rgb(61, 60, 60), rgb(15, 14, 14));
+    border: 0px solid rgb(16, 15, 15);
 }
 
 .selectionevent {
-    position: absolute;
-    top: 22%;
-    right: 5%;
-    left: 69%;
-    padding: 1.5rem;
-    box-shadow: 0 0 30px white;
+    position: relative;
+    top: 0%;
+    right: 38%;
+    padding: 0;;
+    box-shadow: 0 0 30px rgb(27, 27, 27);
     opacity: 0.85;
-    background: radial-gradient(rgb(177, 165, 165), rgb(202, 198, 198));
-    border: 1px solid rgb(199, 193, 193);
+    background: radial-gradient(rgb(11, 11, 11), rgb(19, 19, 19));
+    border: 0px solid rgb(15, 14, 14);
 }
 
 #temperature,
