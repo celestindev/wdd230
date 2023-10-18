@@ -259,7 +259,7 @@ nav {
 }
 
 /* Barner index */
-.selectionwelther {
+#selectionweather {
     position: relative;
     top: 4.5em;;
     left: 38%;
@@ -270,7 +270,7 @@ nav {
     border: 0px solid rgb(16, 15, 15);
 }
 
-.selectionevent {
+#selectionevent {
     position: relative;
     top: 0%;
     right: 38%;
