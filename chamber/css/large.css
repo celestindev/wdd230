@@ -119,19 +119,32 @@
     /**/
 
     /* Directory */
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 1.5rem;
-        transition: 0.3s;
-        width: 100%;
-    }
 
-    img.cards {
-        width: 40%;
-        border-radius: 5px 5px 0 0;
-    }
 
-    /* Directory */
+button{
+    display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+    margin-top: 70px;
+	color: #fff;
+	position: absolute;
+    top: 15rem;
+    left: 5rem;
+    background-color: yellowgreen;
+    position: absolute;
 }
+
+.header img {
+    border-radius: 30px;
+    margin-left: 20px;
+    
+    
+}
+.hero{
+
+    display: grid;
+    place-items: center;
+  }

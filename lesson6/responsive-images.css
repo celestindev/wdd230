@@ -1,0 +1,38 @@
+.screenshot {
+    margin-top: 1.5rem; /* Change 'top' to 'margin-top' to create space above */
+    display: flex;
+    align-items: center; /* Replace 'place-items' with 'align-items' */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column;
+    width: 100%; /* Make the screenshot occupy the full width */
+}
+
+footer {
+    color: rgb(186, 171, 171);
+    background-color: #1f2d38;
+    text-align: center;
+    padding: 20px; /* Increase the padding for better spacing and move the footer down */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    left: 0; /* Align to the left edge of the viewport */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Make the footer span the full width */
+}
+.screenshot {
+    margin-top: 2.5rem; /* Change 'top' to 'margin-top' to create space above */
+    display: flex;
+    align-items: center; /* Replace 'place-items' with 'align-items' */
+    justify-content: center ; /* Center horizontally */
+    flex-direction: column;
+    width: 100%; 
+}
+
+footer {
+    color: rgb(186, 171, 171);
+    background-color: #1f2d38;
+    text-align: center;
+    padding: 0; /* Increase the padding for better spacing and move the footer down */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    left: 0; /* Align to the left edge of the viewport */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Make the footer span the full width */
+}

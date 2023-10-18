@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive-images</title>
+    <link rel="stylesheet" href="responsive-images.css">
+</head>
+
+<body>
+    <div class="screenshot">
+        <picture>
+            <source src="./images/small.webp" media="(max-width: 500px)">
+            <source src="./images/medium.webp" media="(max-width: 1000px)">
+            <img src="./images/large.webp" media="(max-width: 1500px)">
+        </picture>
+    </div>
+</body>
+<footer>
+    <h6>&copy; <span id="year"></span></h6>
+    <h5>GERALD CELESTIN | HAITI REPRESENTED</h5>
+    </div>
+    <h6>
+        Date: <span class="day"></span>/<span class="month"></span>/<span id="currentyear"></span>
+    </h6>
+</footer>
+<script src="./js/getdates.js" async defer></script>
+
+</html>

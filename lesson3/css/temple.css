@@ -1,29 +1,4 @@
-@media (min-width: 32.5em) {
-    header img {
-        float: right;
-        width: 200px;
-    }
-
-    h2 {
-        margin-left: 0.5rem;
-        text-decoration: underline;
-    }
-
-    nav ul,
-    nav ul.navigation {
-        display: flex;
-    }
-
-    nav ul li {
-        flex: 1 1 100%;
-    }
-
-    nav button {
-        display: none;
-    }
-}
-
-
+/* Add this CSS to your existing CSS file or in a <style> tag in the HTML */
 
 /* Container for the button and the image */
 .main {
