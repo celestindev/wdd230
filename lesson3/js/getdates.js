@@ -3,3 +3,6 @@ document.querySelector("#lastupdated").textContent = `Last Updated: ${document.l
 
 // places current year into id year
 document.querySelector("#copyrightyear").textContent = new Date().getFullYear();
+
+
+

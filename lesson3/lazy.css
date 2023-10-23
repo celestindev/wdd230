@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+    }
+    
+    
+    
+    .main img {
+        margin: .1rem;
+        width: 100%;
+        height: auto;
+     
+    }
+    
+    
+    
+    .headtitle{
+        display: grid;
+        place-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    footer {
+        
+        color: white;
+        background-color:#1d4d72;
+        text-align: center; /* Center text within the header */
+        padding: 20px; /* Add some padding for better spacing */
+    }
