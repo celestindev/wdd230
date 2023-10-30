@@ -571,4 +571,15 @@ a {
     height: 500px;
 }
 
+
+
+.screenshot {
+    margin-top: 0.5rem; /* Change 'top' to 'margin-top' to create space above */
+    display: flex;
+    align-items: center; /* Replace 'place-items' with 'align-items' */
+    justify-content: center ; /* Center horizontally */
+    flex-direction: column;
+    width: 100%; 
+}
+
 /* end of map */
