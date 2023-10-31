@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="WDD-230 Chamber Commerce">
+    <meta name="keywords" content="Chamber Commerce">
+    <meta name="author" content="Gerald CELESTIN">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Form</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="./chamber/images/logoformysite.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="head">
+        <nav>
+            <div class="logo">
+                <img src="./chamber/images/logoformysite.png" alt="Logo">
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div id="mode">
+                🕶️
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html" target="_blank">Home</a></li>
+                <li><a href="./discover.html" target="_blank">Discover</a></li>
+                <li><a href="#" target="_blank">Directory</a></li>
+                <li><a href="#" target="_blank">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Get in touch with Us For More Information</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top" for="name">Name <input type="text" id="name" name="name" pattern="[A-Za-z .-]{5,30}"
+                        placeholder="Marc"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="user@email.com"></label>
+                <label class="top">Phone <input type="tel" name="phone" pattern="[0-9 (.-)]{7,14}"
+                        placeholder="###-###-####"></label>
+                <label class="top">Comments<textarea id="subject" name="subject" rows="10" cols="48"
+                        placeholder="Comments..."></textarea></label>
+                <input type="submit" value="Submit" class="submitBtn">
+            </fieldset>
+        </form>
+    </main>
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8572.669105140141!2d-111.87436299664427!3d40.56596879666046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287f2c221b639%3A0xf8771368bf39a422!2s10216%20S%20Crocus%20St%2C%20Sandy%2C%20UT%2084094!5e0!3m2!1sen!2sus!4v1696784684183!5m2!1sen!2sus"
+            width="1400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- footer bottom start -->
+    <div class="footer-bottom">
+        <p>Call: +509344-1212 | +509465-7777</p>
+        <p>Gerald CELESTIN | WDD 230 Course Project</p>
+        <p>&copy;<span id="chambercommercecopyrightyear"></span> Chamber Of Commerce</p>
+        <div class="flag"></div>
+        <span id="chambercommercecurrentdate"></span>
+    </div>
+    <script defer src="footer.js"></script>
+    <script src="nav.js"></script>
+</body>
+
+</html>
