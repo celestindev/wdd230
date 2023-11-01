@@ -20,7 +20,7 @@ if (localStorage.getItem('lastVisitDate') == null) {
     msSinceVisit = 0;
 }
 else {
-    lastVisit = JSON.parse(localStorage.getItem('lastVisitDate'));msSinceVisit = currDateInMs - lastVisit;
+    lastVisit = JSON.parse(localStorage.getItem('lastVisitDate')); msSinceVisit = currDateInMs - lastVisit;
 }
 
 //display one of three possible messages based on how many times they have visited
@@ -28,8 +28,8 @@ else {
 let visitsDisplay = document.querySelector('#visits-display')
 
 if (msSinceVisit < 600) {
-	visitsDisplay.textContent = 'Welcome! Let us know if you have any questions.';
-} 
+    visitsDisplay.textContent = 'Welcome! Let us know if you have any questions.';
+}
 else if (msSinceVisit < (24 * 3600000)) {
     visitsDisplay.textContent = 'Back so soon! Awesome!';
 }
@@ -45,6 +45,7 @@ else {
 }
 
 
-// set the local storage 'last visit' to current date 
+// set the local storage 'last visit' to current date
 
 localStorage.setItem('lastVisitDate', JSON.stringify(currDateInMs));
+
