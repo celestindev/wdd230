@@ -44,8 +44,6 @@ else {
     }
 }
 
-
-// set the local storage 'last visit' to current date
+// set the local storage 'last visit' to current date 
 
 localStorage.setItem('lastVisitDate', JSON.stringify(currDateInMs));
-
