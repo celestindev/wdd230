@@ -1,4 +1,4 @@
-const directoryURL = 'chamber\data\members.json';
+const directoryURL = 'https://raw.githubusercontent.com/celestindev/wdd230/main/chamber/data/members.json';
 fetch(directoryURL)
     .then(response => response.json())
     .then(jsonObject => {
