@@ -1,4 +1,4 @@
-const directoryURL = 'https://chamberofcommerce.glitch.me/directory.json';
+const directoryURL = 'chamber\data\members.json';
 fetch(directoryURL)
     .then(response => response.json())
     .then(jsonObject => {

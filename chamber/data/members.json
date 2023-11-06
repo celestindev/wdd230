@@ -1,5 +1,6 @@
 {
-    "localbusinessorganizations": [{
+    "localbusinessorganizations": [
+        {
             "name": "Patisserie Marie Béliard",
             "address": "Petion-Ville, Pétionville, 6141, Haiti",
             "description": "",
@@ -8,68 +9,68 @@
             "imageUrl": "https://cdn.glitch.global/19b12a35-0c74-4ffd-88b3-9e6ec56e25a1/RedVelvet.jpg?v=1699284172330"
         },
         {
-            "name": "Ayititek",
+            "name": "Aerotek",
             "address": "Rue panaméricaine, Pétionville, 0000, Haiti",
             "description": "",
-            "phone": "+509 4891-0494",
-            "website": "ayititek.co",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/ayititek.png?v=1640983804703"
+            "phone": "+509 4891-0011",
+            "website": "https://www.visitokc.com/listing/aerotek-inc/50/",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Aerotek.png?v=1699289518318"
         },
         {
             "name": "DBS",
             "address": "24 Rue Lambert, Pétionville, HT6140, Haiti",
             "description": "",
-            "phone": "+509 4832-2407",
-            "website": "www.designerbrandstores.com",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/dbs.png?v=1640984042746"
+            "phone": "+509 4832-2244",
+            "website": "https://www.cnbc.com/2023/03/30/singapores-banking-authority-mas-says-dbs-outage-is-unacceptable.html",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/DBS.jpeg?v=1699289793699"
         },
         {
             "name": "Konsome Lokal",
             "address": "36 rue Clerveaux, Pétionville, Haiti",
             "description": "Pou valorize prodiksyon Lokal la ! Pour valoriser la production locale",
-            "phone": "+509 2816-1180",
-            "website": "www.konsomelokal.com",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/konsomelokal.png?v=1640984276505"
+            "phone": "+509 2816-1560",
+            "website": "https://l-express.ca/haiti-une-cooperative-de-femmes-prend-lagriculture-en-main-a-jacmel/",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Konsomelokal.png?v=1699290154924"
         },
         {
             "name": "Best Construction Haiti LLC",
             "address": "Meyotte 37 #48",
             "description": "If you can dream it, we can build it. “ Si ou kapab reve’l, nou kapab bati’l “",
-            "phone": "+509 3910-3833",
+            "phone": "+509 3910-3334",
             "website": "www.bestconstructionht.com",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/bestconstruction.png?v=1640987515268"
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Bc.jfif?v=1699290449497"
         },
         {
-            "name": "Boutique ParFete",
+            "name": "Home Shop",
             "address": "58 Rue Vilatte (Complexe Extra Market, Place Boyer), Pétionville, Haiti",
-            "description": "",
-            "phone": "+509 2813-1978",
-            "website": "",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/boutiqueparfete.png?v=1640987654232"
+            "description": "Did you want something very ship come to Home Shop It's a pleasur to serve you",
+            "phone": "+509 2813-9900",
+            "website": "https://fr.freepik.com/vecteurs-premium/modele-conception-logo-boutique-ligne-parfait-pour-commerce-electronique-vente-magasin-boutique-remise-web_31114981.htm",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/homeshop.jfif?v=1699290733391"
         },
         {
-            "name": "Kreyaktif",
+            "name": "Kreyaktif Shop",
             "address": "Pétionville, Haiti",
             "description": "Kreyaktif 'Lide w yo ka pran fòm'",
             "phone": "+509 4475-2333 / +509 4754-5050 / +509 4888-2831",
-            "website": "",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/kreyaktif.png?v=1640987886852"
+            "website": "www.kreatif.com",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/kreatif.jfif?v=1699291008869"
         },
         {
-            "name": "Arcotec",
-            "address": "46 rue Narcisse, Pétionville, Haiti",
+            "name": "Arcotec Company",
+            "address": "98 rue Narcisse, Pétionville, Haiti",
             "description": "Arcotec Management Services, 2525 Ponce de Leon Blvd., Suite 300, Coral Gables, FL 33134",
             "phone": "+509 2810 3333",
-            "website": "www.arcotechaiti.com",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/arcotec.png?v=1640988167421"
+            "website": "https://www.linkedin.com/showcase/arcotec_fr/about/",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Arcotec.jfif?v=1699291195738"
         },
         {
             "name": "Ayilo",
             "address": "29 Rue Gregoire, Pétionville, HT6140, Haiti",
             "description": "Ayilo was founded on our love for branding. We are firm believers in the power of image to persuade the client into appreciating your product.",
-            "phone": "+509 3750-9999",
-            "website": "www.ayilo.com",
-            "imageUrl": "https://cdn.glitch.me/79d03caf-f261-4d74-9892-bcabbe936dca/ayilo.png?v=1640988467137"
+            "phone": "+509 3750-1010",
+            "website": "https://www.tiktok.com/discover/benefits-of-an-ayilo-clay",
+            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Ayilo.jfif?v=1699291436045"
         }
     ]
 }
