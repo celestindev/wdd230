@@ -8,7 +8,7 @@
             "description": "For the preparation of the good bread for this country",
             "phone": "+509 2813-1515",
             "website": "www.Mbeliard.com",
-            "imageUrl": "https://cdn.glitch.global/19b12a35-0c74-4ffd-88b3-9e6ec56e25a1/RedVelvet.jpg?v=1699284172330"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_redvelvet.png?v=1699392657816"
         },
         {
             "name": "Aerotek",
@@ -16,7 +16,7 @@
             "description": "",
             "phone": "+509 4891-0011",
             "website": "www.AerotekUs.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Aerotek.png?v=1699289518318"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/download.png?v=1699392915466"
         },
         {
             "name": "DBS",
@@ -24,7 +24,7 @@
             "description": "",
             "phone": "+509 4832-2244",
             "website": "www.designbestshop.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/DBS.jpeg?v=1699289793699"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_dbs.png?v=1699392617533"
         },
         {
             "name": "Konsome Lokal",
@@ -32,7 +32,7 @@
             "description": "Pou valorize prodiksyon Lokal la! Pour valoriser la production locale",
             "phone": "+509 2816-1560",
             "website": "www.kosomeLokal.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Konsomelokal.png?v=1699290154924"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_3n75bhgivu.png?v=1699393113637"
         },
         {
             "name": "Best Construction Haiti LLC",
@@ -40,7 +40,7 @@
             "description": "If you can dream it, we can build it. “Si ou kapab reve’l, nou kapab bati’l“",
             "phone": "+509 3910-3334",
             "website": "www.bestconstructionht.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Bc.jfif?v=1699290449497"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_1bestconstruction.png?v=1699393332217"
         },
         {
             "name": "Home Shop",
@@ -48,15 +48,15 @@
             "description": "Did you want something very ship come to Home Shop. It's a pleasure to serve you",
             "phone": "+509 2813-9900",
             "website": "www.Homeshop.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/homeshop.jfif?v=1699290733391"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_homeshop.png?v=1699393641380"
         },
         {
-            "name": "Kreyaktif Shop",
+            "name": "Destiny Shop",
             "address": "Pétionville, Haiti",
             "description": "Kreyaktif 'Lide w yo ka pran fòm'",
             "phone": "+509 4475-0909 / +509 4754-5555 / +509 4888-8899",
             "website": "www.kreatif.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/kreatif.jfif?v=1699291008869"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_11kreyatif.png?v=1699394096621"
         },
         {
             "name": "Arcotec Company",
@@ -64,15 +64,15 @@
             "description": "Arcotec Management Services, 2525 Ponce de Leon Blvd., Suite 300, Coral Gables, FL 33134",
             "phone": "+509 2810 3333",
             "website": "www.AerotekUs.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Arcotec.jfif?v=1699291195738"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/Arcotek.png?v=1699394231631"
         },
         {
-            "name": "Ayilo",
+            "name": "Konparet",
             "address": "29 Rue Gregoire, Pétionville, HT6140, Haiti",
             "description": "Ayilo was founded on our love for branding. We are firm believers in the power of image to persuade the client into appreciating your product.",
             "phone": "+509 3750-1010",
             "website": "www.ayilo.com",
-            "imageUrl": "https://cdn.glitch.global/c8d40a95-f392-4f4a-a543-d8022570efb4/Ayilo.jfif?v=1699291436045"
+            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_konparet.png?v=1699395046459"
         }
     ]
 }

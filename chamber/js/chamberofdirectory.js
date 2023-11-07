@@ -1,7 +1,7 @@
 const directoryURL = 'https://raw.githubusercontent.com/celestindev/wdd230/main/chamber/data/members.json';
 fetch(directoryURL)
     .then(response => response.json())
-    .then(jsonObject => {
+    .then(jsonObject => { 
         const localbusinessorganizations = jsonObject['localbusinessorganizations'];
         for (let i = 0; i < localbusinessorganizations.length; i++) {
             var cards = document.createElement('section');
