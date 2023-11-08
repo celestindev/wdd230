@@ -16,56 +16,56 @@
             "lesson": "03",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "images/1.jpeg | https://codepen.io/celestindev/pen/NWezXZr | lesson3/chamber-site-plan.html ",
+                    "title": "image | Pseudo Element CodePen| Chamber Site Plan "
                 }
             ]},
         {
             "lesson": "04",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "./chamber/index.html",
+                    "title": "Haiti Town Chamber Of Commerce"
                 }
             ]},
         {
             "lesson": "05",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "/lesson05/bom.html",
+                    "title": "DOM"
                 }
             ]},
         {
             "lesson": "06",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "./chamber/index.html",
+                    "title": "Responsive Images"
                 }
             ]},
         {
             "lesson": "07",
             "links": [
                 {
-                    "url": "my url",
-                    "title": "my title"
+                    "url": "./lesson3/lazyload.html | ./chamber/discover.html",
+                    "title": "Lazy loading1 | Chamber Discovery Page"
                 }
             ]},
         {
             "lesson": "08",
             "links": [
             {
-                "url": "my url",
-                "title": "my title"
+                "url": "./form.html | chamber/join.html",
+                "title": "Form Build | Join Chamber"
                 }
         ]},
         {
             "lesson": "09",
             "links": [
                 {
-                    "url": "my url",
-                        "title": "my title"
+                    "url": "./chamber/directory.html",
+                        "title": "Chamber Directory Page"
                     }
         ]},
         {
@@ -78,4 +78,15 @@
             ]}
 
         ]
+
+        {
+            "lesson": "11",
+            "links": [
+                {
+                    "url": "my url",
+                    "title": "my title"
+                }
+            ]}
+
+        
 }
