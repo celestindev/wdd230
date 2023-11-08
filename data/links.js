@@ -1,6 +1,6 @@
 // change these to your own links
-const baseURL = "http://127.0.0.1:5500/index.html"
-const linksURL = "/data/links.json";
+const baseURL = "https://celestindev.github.io/wdd230/"
+const linksURL = "https://celestindev.github.io/wdd230/data/links.json";
 const ul = document.querySelector('#lessons')
 
 
