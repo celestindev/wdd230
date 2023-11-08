@@ -1,14 +1,13 @@
 {
     "localbusinessorganizations": [
-        {
-        },
+        {},
         {
             "name": "Patisserie Marie Béliard",
             "address": "Petion-Ville, Pétionville, 6141, Haiti",
             "description": "For the preparation of the good bread for this country",
             "phone": "+509 2813-1515",
             "website": "www.Mbeliard.com",
-            "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_redvelvet.png?v=1699392657816"
+            "imageUrl": "https://cdn.glitch.global/5b6db54b-8f1c-4ed0-a011-40813eb2bb51/RedVelvet.jpg?v=1699452194837"
         },
         {
             "name": "Aerotek",
@@ -36,7 +35,7 @@
         },
         {
             "name": "Best Construction Haiti LLC",
-            "address": "Meyotte 37 #48",
+            "address": "Meyotte 378 #488",
             "description": "If you can dream it, we can build it. “Si ou kapab reve’l, nou kapab bati’l“",
             "phone": "+509 3910-3334",
             "website": "www.bestconstructionht.com",
@@ -44,7 +43,7 @@
         },
         {
             "name": "Home Shop",
-            "address": "58 Rue Vilatte (Complexe Extra Market, Place Boyer), Pétionville, Haiti",
+            "address": "58 Rue Vilatte Complexe Extra Market, Place Boyer, Pétionville, Haiti",
             "description": "Did you want something very ship come to Home Shop. It's a pleasure to serve you",
             "phone": "+509 2813-9900",
             "website": "www.Homeshop.com",
@@ -53,9 +52,9 @@
         {
             "name": "Destiny Shop",
             "address": "Pétionville, Haiti",
-            "description": "Kreyaktif 'Lide w yo ka pran fòm'",
+            "description": "Destiny 'Lide w yo ka pran fòm'",
             "phone": "+509 4475-0909 / +509 4754-5555 / +509 4888-8899",
-            "website": "www.kreatif.com",
+            "website": "www.Destiny.com",
             "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_11kreyatif.png?v=1699394096621"
         },
         {
@@ -69,9 +68,9 @@
         {
             "name": "Konparet",
             "address": "29 Rue Gregoire, Pétionville, HT6140, Haiti",
-            "description": "Ayilo was founded on our love for branding. We are firm believers in the power of image to persuade the client into appreciating your product.",
+            "description": "Konparet was founded on our love for branding. We are firm believers in the power of image to persuade the client into appreciating your product.",
             "phone": "+509 3750-1010",
-            "website": "www.ayilo.com",
+            "website": "www.konparet.com",
             "imageUrl": "https://cdn.glitch.global/d8b27d82-9813-4810-8776-97739a146a36/rsz_konparet.png?v=1699395046459"
         }
     ]
