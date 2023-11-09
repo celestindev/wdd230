@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://raw.githubusercontent.com/celestindev/wdd230/main/lesson09/prophets.json';
 
 fetch(requestURL)
   .then(function(response){
