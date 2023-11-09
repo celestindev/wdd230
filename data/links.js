@@ -1,5 +1,5 @@
 // change these to your own links
-const baseURL = "https://celestindev.github.io/wdd230/";
+const baseURL = "https://celestindev.github.io/wdd230/data/links.json";
 const linksURL = "https://celestindev.github.io/wdd230/data/links.json";
 const ul = document.querySelector('#lessons')
 
@@ -25,6 +25,7 @@ const displayLinks = (weeks) => {
 
       ul.appendChild(li);
     }); // end of arrow function and forEach loop
+    
 }
 
 
