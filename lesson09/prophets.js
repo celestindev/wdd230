@@ -1,19 +1,4 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-
-async function getProphetData(url) {
-  const response = await fetch(url);
-  const data = await response.json();
-  //console.table(data.prophets);
-  displayProphets(data.prophets); // note that we reference the prophets array of the JSON data object, not just the object
-}
-
-getProphetData();
-
-const displayProphets = (prophets) => {
-  prophets.forEach((prophet) => {
-
-  });
-}
+const requestURL = '';
 
 fetch(requestURL)
   .then(function(response){
