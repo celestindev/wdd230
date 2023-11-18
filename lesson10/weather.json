@@ -1,0 +1,33 @@
+{
+    "currentTemp": "#current-temp",
+    "weatherIcon": "#weather-icon",
+    "captionDesc": "figcaption",
+    "url": "https://api.openweathermap.org/data/2.5/weather?lat=60.67&lon=17.14&units=imperial&appid=beab6b04d285d807b6891255753de2e6",
+    "apiFetch": {
+      "try": {
+        "response": {
+          "ok": true,
+          "data": {
+            "temp": "data._____",
+            "iconsrc": "https://api.openweathermap.org/data/2.5/weather?lat=60.67&lon=17.14&units=imperial&appid=beab6b04d285d807b6891255753de2e6",
+            "desc": "data.weather[0].______"
+          },
+          "error": "Error(await response.text())"
+        }
+      },
+      "catch": "console.log(error);"
+    },
+    "displayResults": {
+      "currentTemp": "${data.27°C}&deg;F",
+      "iconsrc": "https://api.openweathermap.org/data/2.5/weather?lat=60.67&lon=17.14&units=imperial&appid=beab6b04d285d807b6891255753de2e6",
+      "desc": "data.weather[0]27°C",
+      "weatherIconAttributes": {
+        "attribute1": "87",
+        "value1": "34",
+        "attribute2": "89",
+        "value2": "90"
+      },
+      "captionDesc": "${desc}"
+    }
+  }
+  
