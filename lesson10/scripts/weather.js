@@ -5,7 +5,6 @@ const captionDesc = document.querySelector('figcaption');
 const chill = document.querySelector("#chill");
 const speed = document.querySelector('#speed');
 const forecast = document.querySelector('#forecast');
-// const url = 'https://api.openweathermap.org/data/2.5/weather?lat=18.59&lon=72.3074&appid=10ea66f11c5ae11f617312f9f103c0d3&units=imperial&lang=en';  day
 const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=lat=18.59&lon=72.3074&appid=10ea66f11c5ae11f617312f9f103c0d3&units=imperial&lang=en'; // forecast
 
 async function apiFetch() {
