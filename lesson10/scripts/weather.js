@@ -5,7 +5,7 @@ const captionDesc = document.querySelector('figcaption');
 
  const url = `https://api.openweathermap.org/data/2.5/weather?lat=60.67&lon=17.14&units=imperial&appid=beab6b04d285d807b6891255753de2e6`;
 
-
+ const requestURL = 'https://raw.githubusercontent.com/celestindev/wdd230/main/lesson10/scripts/weather.js';
  
 async function apiFetch() {
     try {
