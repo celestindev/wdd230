@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
- const url = `https://api.openweathermap.org/data/2.5/weather?q=$jacmel&appid=0fa926a67df191c9a666c0e4899bdb98`;
+ const url = `https://api.openweathermap.org/data/2.5/weather?lat=60.67&lon=17.14&units=imperial&appid=beab6b04d285d807b6891255753de2e6`;
 
 
  
@@ -27,7 +27,7 @@ async function apiFetch() {
 
   function displayResults(data) {
     currentTemp.innerHTML = `${data._____}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/wn/$jacmel&appid=0fa926a67df191c9a666c0e4899bdb98.png`;
+    const iconsrc = `https://api.openweathermap.org/data/2.5/weather?lat=60.67&lon=17.14&units=imperial&appid=beab6b04d285d807b6891255753de2e6`;
     let desc = data.weather[0].______;
     weatherIcon.setAttribute('___', _____);
     weatherIcon.setAttribute('___', _____);
