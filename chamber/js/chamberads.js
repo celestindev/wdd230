@@ -1,4 +1,4 @@
-// chamber advertissement
+// I just now put something in the chamber advertissement very important
 var myIndex = 0;
 carousel();
 
@@ -11,5 +11,5 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4000); // change image every 2 seconds
+    setTimeout(carousel, 4000); // this setup going to change image every 2 seconds very important
 }

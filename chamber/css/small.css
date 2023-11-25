@@ -1,12 +1,13 @@
-/* for mobile screen view */
+/* For now the mobile screen view very important*/
 @media only screen and (max-width: 800px) {
+}
 
     .footer-items,
     main {
         width: 100%;
     }
 
-    /* Barner index */
+    /* Now this is Barner index really nice */
     .selectionwelther {
         position: relative;
         left: 0%;
@@ -29,9 +30,8 @@
         box-shadow: none;
     }
 
-    /* Barner index */
 
-    /* ------------ FORM ------------*/
+    /* this the FORM very important for me*/
     form fieldset {
         margin: 2rem 0;
         border: 1px solid #000000;
@@ -93,8 +93,7 @@
         border-left: green solid 6px;
     }
 
-    /* End of form */
-    /* Weather forecast*/
+    /*I just begin Weather forecast code after I use them for all */
     .days {
         display: block;
     }
@@ -139,9 +138,7 @@
         line-height: 10px;
     }
 
-    /**/
-
-    /* Directory */
+    /* Now I will begin my code Directory */
     .cards {
         display: grid;
         grid-template-columns: 1fr;
@@ -158,9 +155,9 @@
         border-radius: 5px 5px 0 0;
     }
 
-    /* Directory */
+    /* This the Directory very important */
 
-    /* map */
+   
     .mapouter {
         position: relative;
         text-align: left;
@@ -175,5 +172,7 @@
         height: 500px;
     }
 
-    /* end of map */
-}
+
+
+
+

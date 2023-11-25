@@ -3,13 +3,13 @@ const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
 hamburger.addEventListener('click', () => {
-	//Animate Links
+	// This is the Animate Links that very important in this code
 	navLinks.classList.toggle("open");
 	links.forEach(link => {
 		link.classList.toggle("fade");
 	});
 
-	//Hamburger Animation
+	//I begin the Hamburger Animation now with my code
 	hamburger.classList.toggle("toggle");
 });
 

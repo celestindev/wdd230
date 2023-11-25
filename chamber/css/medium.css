@@ -1,10 +1,10 @@
-/* for tablet mode view */
+/* Yes it is for tablet mode view  very important*/
+
 @media screen and (max-width: 1275px) {
     .footer-items {
         width: 50%;
     }
 
-    /* ------------ FORM ------------*/
     form fieldset {
         margin: 2rem 0;
         border: 1px solid #000000;
@@ -70,8 +70,6 @@
         text-align: left;
     }
 
-    /* End of form */
-    /* Weather forecast*/
     .days {
         display: block;
     }
@@ -116,9 +114,9 @@
         line-height: 10px;
     }
 
-    /**/
+   
 
-    /* Directory */
+    /* My Directory code css*/
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -135,9 +133,9 @@
         border-radius: 5px 5px 0 0;
     }
 
-    /* Directory */
+    /* Once again Directory code css*/
 
-    /* map */
+    /* Begin the map here*/
     .mapouter {
         position: relative;
         text-align: left;
@@ -152,5 +150,5 @@
         width: 600px;
     }
 
-    /* end of map */
+    /* here the end of map very important */
 }

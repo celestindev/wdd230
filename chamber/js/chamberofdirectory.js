@@ -26,7 +26,16 @@ fetch(directoryURL)
             article.appendChild(phone);
             article.appendChild(website);
             document.querySelector('div.cards').appendChild(cards, cards.appendChild(article)).appendChild(image_cards);
-            // document.querySelector('div.cards',article).appendChild(article);
+        
         }
     })
     .catch(err => document.querySelector('div.cards').innerHTML = err)
+
+
+
+
+
+
+
+
+

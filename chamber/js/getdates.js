@@ -1,4 +1,4 @@
-// get dates and print last modified info to footer
+// Working on to get dates and print the last altered data to the footer really good
 
 let date = new Date();
 let year = date.getFullYear();
@@ -7,14 +7,14 @@ let modDateLabel = document.getElementById('last-mod');
 let lastMod = document.lastModified;
 modDateLabel.innerHTML = lastMod;
 
-// get the date right now in ms
+// For now I jsut work to get the date right now in ms this is very important
 
 const theDateToday = new Date();
 const currDateInMs = Date.now();
 let lastVisit = 0;
 let msSinceVisit = 0;
 
-// calculate ms since last visit
+// Once again calculate ms since last visit really important
 
 if (localStorage.getItem('lastVisitDate') == null) {
     msSinceVisit = 0;
@@ -23,7 +23,7 @@ else {
     lastVisit = JSON.parse(localStorage.getItem('lastVisitDate')); msSinceVisit = currDateInMs - lastVisit;
 }
 
-//display one of three possible messages based on how many times they have visited
+//For the present, I simply show one of three potential messages in light of how frequently they have visited really important
 
 let visitsDisplay = document.querySelector('#visits-display')
 
@@ -34,7 +34,7 @@ else if (msSinceVisit < (24 * 3600000)) {
     visitsDisplay.textContent = 'Back so soon! Awesome!';
 }
 else {
-    // calculate days since last visit
+    // Yes now calculate days since last visit in uour website
     let daysSince = Math.round(msSinceVisit / 60 / 60 / 24);
     if (daysSince < 2) {
         visitsDisplay.textContent = `You last visited 1 day ago.`;
@@ -44,6 +44,6 @@ else {
     }
 }
 
-// set the local storage 'last visit' to current date 
+// Yeah Right now begin toset the local storage 'last visit' to current date very important
 
 localStorage.setItem('lastVisitDate', JSON.stringify(currDateInMs));

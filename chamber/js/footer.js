@@ -1,4 +1,4 @@
-// The chamber commerce footer
+// Now I just begin The chamber commerce footer very important for me
 const currentdate = document.getElementById("chambercommercecurrentdate");
 currentdate.textContent = new Date().getFullYear();
 
