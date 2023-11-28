@@ -1,0 +1,121 @@
+/* I begin my body here important */
+
+body {
+    font-size: 10pt;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: rgb(0, 187, 255);
+    box-shadow: 0.5rem 0.5rem 2rem gray;
+}
+
+header {
+    font-family: "Scheherazade New", cursive;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    border-image: stretch;
+}
+
+h1 {
+    font-size: 1.4rem;
+    color: #000000;
+    text-shadow: 0.5rem 0.5rem 2rem gray;
+}
+
+h2 {
+    margin-left: 0.5rem;
+    text-decoration: underline;
+}
+
+main ul {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+main ul li {
+    margin: 0.5rem;
+}
+
+/* Here its my Small/Phone View to look at everyting I need very importan*/
+button {
+    background-color:#000000;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: "Inconsolata", monospace;
+}
+
+nav {
+ margin: 0 auto;
+ max-width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 10px 5px 5px white;
+}
+nav button {
+    margin: 0.5rem 5%;
+    font-size: 1rem;
+    color:#000;
+    border: none;
+}
+.navigation{
+ display: block;
+    flex: 1 1 auto;
+    text-align: center;
+}
+nav ul.navigation {
+    display: none;
+}
+nav ul {
+    list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+.navigation a {
+ display: block;
+ padding: 0.75rem;
+ text-align: center;
+ text-decoration: none;
+ color: black;
+ font-weight: 700;
+ transition: 0.5s;
+}
+.navigation a:hover {
+ color: white;
+ background-color: black;
+}
+
+.navigation {
+ display: flex;
+ }
+
+nav a {
+ text-align: center;
+ }
+
+footer {
+    font-family: "Scheherazade New", serif;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+}
+
+footer a {
+    color:black;
+    font-family: "Architects Daughter", sans-serif;
+}
