@@ -1,0 +1,27 @@
+
+{
+  "rentals": [
+    {
+      "name": "Scooter 1",
+      "rentalType": "Honda Metro Scoote" ,
+      "imageUrl": "https://cdn.glitch.global/5563bab4-b283-4147-a44c-1039c4ef96c6/CozumelBike.jpg?v=1701383784665",
+      "description": "In many places, a regular driver's license is sufficient to operate a scooter with a certain engine size...",
+      "priceReservation": "$20 per day one person , Full day: $ 30"
+    },
+    {
+      "name": "Scooter 2",
+      "rentalType": "Honda PCX150 Scooter" ,
+      "imageUrl": "https://cdn.glitch.global/5563bab4-b283-4147-a44c-1039c4ef96c6/scooter2.jpg?v=1701383824953",
+      "description": "Electric Scooters: Powered by electric motors, these scooters are becoming increasingly popular for short-distance commuting...",
+      "priceReservation": "$30 per day for two persons , Full day: $40"
+    },
+    {
+      "name": "Scooter 3",
+      "rentalType": "Jeep Wrangler - 4 door with a/c" ,
+      "imageUrl": "https://cdn.glitch.global/5563bab4-b283-4147-a44c-1039c4ef96c6/scooter3.jpg?v=1701383860728",
+      "description": "Most scooters have a small internal combustion engine, either two-stroke or four-stroke. Transmission Scooters typically have an automatic transmission...",
+      "priceReservation": "$60 per day for four persons , Full day: $85"
+    }
+   
+  ]
+}
